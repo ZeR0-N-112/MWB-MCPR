@@ -11,9 +11,8 @@
 
     "$phong" "1"
     "$phongboost" "1"
-    "$phongalbedotint" "1"
-    "$phongalbedoboost" "1" //change this if not bright enough
     "$phongfresnelranges" "[1 0.5 0]"
+    "$phongalbedotint" "0"
 
     //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
     "$rimlight" "1"

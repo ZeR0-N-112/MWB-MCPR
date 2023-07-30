@@ -105,7 +105,8 @@ $bbox -12.672 -32.595 -64.321 46.282 14.618 64.32
       $definebone "j_thumb_le_4" "j_thumb_le_3" 0.599869 0.400219 -0.000031 -0.000003 0.000114 -0.000112 0.000000 -0.000000 -0.000004 -0.000005 0.000000 0.000002
       $definebone "j_webbing_le_2" "j_thumb_le_1" 0.999556 0.000347 -1.210190 -0.000000 0.000113 -0.000111 0.000002 0.000001 0.000000 -0.000000 -0.000003 0.000003
       $definebone "j_webbing_le_1" "j_wrist_le" 2.299750 -2.499895 -0.599575 12.691987 -30.207653 51.113003 0.000000 0.000000 0.000000 0.000002 0.000003 -0.000005
-      $definebone "tag_weapon_left" "j_wrist_le" -9.579946 -27.860617 -37.185738 -7.073738 -32.568920 46.578499 0.000000 0.000000 0.000000 0.000003 0.000005 -0.000006
+$definebone "tag_weapon" "tag_torso" 14.188081 0.000000 0.141998 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000     
+	 $definebone "tag_weapon_left" "j_wrist_le" -9.579946 -27.860617 -37.185738 -7.073738 -32.568920 46.578499 0.000000 0.000000 0.000000 0.000003 0.000005 -0.000006
       $definebone "tag_accessory_left" "j_wrist_le" -9.579946 -27.860617 -37.185738 -7.073738 -32.568920 46.578499 0.000000 0.000000 0.000000 0.000003 0.000005 -0.000006
       $definebone "j_proc_metaindex_le_1" "j_wrist_le" 0.649947 -0.548286 0.093636 -7.527982 -6.419813 -95.447365 0.000000 0.000000 -0.000002 -0.000005 -0.000004 -0.000006
       $definebone "j_proc_metaindex_le_2" "j_proc_metaindex_le_1" 1.899128 0.000401 -0.000443 -1.909157 27.379818 1.567660 0.000000 0.000004 0.000002 -0.000003 -0.000002 -0.000009
@@ -125,7 +126,7 @@ $bbox -12.672 -32.595 -64.321 46.282 14.618 64.32
       $definebone "j_shield_ri" "j_elbow_ri" 3.999911 0.000164 0.001022 0.000110 0.000109 0.000058 0.000000 0.000000 0.000000 -0.000003 -0.000003 0.000000
       $definebone "j_elbowdq_ri" "j_elbow_ri" 0.119678 -0.275194 0.000832 0.000224 23.483019 -0.001775 0.000000 0.000000 0.000000 -0.000004 0.000002 0.000002
       $definebone "j_wrist_ri" "j_elbow_ri" 11.041303 0.000000 0.000679 0.000227 -0.000003 0.000464 0.000000 0.000000 0.000000 -0.000004 -0.000003 0.000006
-      $definebone "j_gun" "" -18.909138 -8.427637 0.000473 7.071501 -32.569965 133.421936 0.000000 0.000000 0.000000 -0.000005 0.000006 -0.000003
+      $definebone "j_gun" "tag_weapon" -18.909138 -8.427637 0.000473 7.071501 -32.569965 133.421936 0.000000 0.000000 0.000000 -0.000005 0.000006 -0.000003
       $definebone "tag_sling" "j_gun" -10.887041 0.000104 0.432987 -0.000005 -0.000853 -0.000118 0.000001 0.000000 0.000000 -0.000005 0.000006 -0.000003
       $definebone "j_safety" "tag_sling" 0.000001 0.000000 0.000000 -0.000005 0.000006 -0.000003 0.000001 0.000000 0.000000 -0.000005 0.000006 -0.000003
       $definebone "tag_holo" "tag_sling" 5.779019 -0.000037 2.089989 -0.000005 -0.000051 -0.000003 0.000000 0.000000 0.000000 -0.000005 0.000006 -0.000003
@@ -140,9 +141,15 @@ $bbox -12.672 -32.595 -64.321 46.282 14.618 64.32
       $definebone "tag_ik_loc_le" "tag_sling" 14.908043 1.902060 -0.559933 1.246922 -28.740131 -130.007538 0.000000 0.000000 0.000004 0.000003 -0.000007 -0.000001
       $definebone "tag_ik_loc_ri" "tag_sling" -0.261991 -1.266886 -3.707005 -2.970677 -1.435655 -115.260139 0.000000 0.000004 0.000000 -0.000003 -0.000008 0.000006
       $definebone "tag_laser_attach" "tag_sling" 23.575089 -1.223922 0.711975 -0.000005 0.000235 89.999985 0.000001 0.000000 0.000000 0.000006 0.000005 0.000003
-      $definebone "tag_mag_attach" "tag_sling" 10.986041 0.000078 -1.252983 -0.000005 0.000407 -0.000003 0.000000 0.000000 0.000000 -0.000005 0.000006 -0.000003
-      $definebone "j_mag1" "tag_mag_attach" -1.966007 -0.000986 -0.271000 -0.000005 0.000121 -0.000003 0.000000 0.000000 0.000000 -0.000005 0.000006 -0.000003
-      $definebone "j_mag2" "tag_mag_attach" -1.966007 -0.000986 -0.271000 -0.000005 0.000121 -0.000003 0.000000 0.000000 0.000000 -0.000005 0.000006 -0.000003
+      $definebone "tag_mag_attach" "tag_sling" 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "j_mag1" "tag_mag_attach" -1.966000 -0.001000 -0.271000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "j_ammo_01" "j_mag1" -0.040000 0.169000 1.761000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "j_ammo_02" "j_mag1" -0.040000 -0.319000 1.483000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "j_ammo_03" "j_mag1" -0.040000 0.169000 1.204000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "j_ammo_04" "j_mag1" -0.040000 -0.319000 0.920000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "j_follower" "j_mag1" -0.049000 -0.005000 0.167000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "j_mag2" "tag_mag_attach" -1.966000 -0.001000 -0.271000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "j_ammo_09" "tag_mag_attach" -9.847000 -0.011000 0.623000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
       $definebone "tag_reflex" "tag_sling" 6.243021 -0.000037 2.079987 -0.000005 -0.000051 -0.000003 0.000000 0.000000 0.000000 -0.000005 0.000006 -0.000003
       $definebone "tag_scope" "tag_sling" 5.779019 -0.000037 2.089989 -0.000005 -0.000051 -0.000003 2.000000 0.000000 0.000000 -0.000005 0.000006 -0.000003
       $definebone "tag_sight_on" "tag_sling" 15.217053 -0.000030 3.078991 -0.000005 0.000006 -0.000003 0.000000 0.000000 0.000000 -0.000005 0.000006 -0.000003
@@ -205,7 +212,6 @@ $bbox -12.672 -32.595 -64.321 46.282 14.618 64.32
       $definebone "j_proc_spinelower" "j_spinelower" 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
       $definebone "j_groinprotector" "j_mainroot" 4.000019 -6.500037 -0.000001 -0.000286 0.052196 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
       $definebone "j_crotch" "j_mainroot" -6.500038 -0.000000 0.000000 89.998817 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000
-      $definebone "tag_weapon" "tag_torso" 14.188081 0.000000 0.141998 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
       $definebone "tag_cambone" "tag_view" 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
       $definebone "tag_camera" "tag_cambone" 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
       $definebone "tag_player" "tag_camera" 0.106001 0.000000 -64.320358 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
@@ -215,10 +221,10 @@ $bbox -12.672 -32.595 -64.321 46.282 14.618 64.32
       $definebone "j_fire_sel" "tag_sling" 3.352012 0.087038 -0.891991 -0.000005 -0.000051 -0.000003 0.000001 0.000000 0.000000 -0.000005 0.000006 -0.000003
       $definebone "tag_pistolgrip_attach" "tag_sling" 2.507010 0.000060 -1.738987 -0.000005 -0.000051 -0.000003 0.000000 0.000000 0.000000 -0.000005 0.000006 -0.000003
       $definebone "j_follower" "j_mag1" -0.049001 -0.005006 0.166996 -0.000005 0.000006 -0.000003 -0.000000 0.000000 0.000000 -0.000005 0.000006 -0.000003
-      $definebone "j_bolt" "tag_sling" 8.183031 0.036012 0.692001 -0.000005 0.000006 -0.000003 0.000000 0.000000 0.000000 -0.000005 0.000006 -0.000003
-      $definebone "tag_rail_attach" "j_bolt" -1.832007 -0.000008 0.000000 -0.000005 -0.000051 -0.000003 0.000000 0.000000 0.000000 -0.000005 0.000006 -0.000003
-      $definebone "j_bolt_sleeve" "tag_rail_attach" -2.802011 -0.000012 -0.000008 -0.000005 0.000006 -0.000003 0.000001 0.000000 0.000000 -0.000005 0.000006 -0.000003
-      $definebone "j_bolt_guide" "tag_rail_attach" -1.111004 -0.000005 -0.000008 -0.000005 0.000006 -0.000003 0.000000 0.000000 0.000000 -0.000005 0.000006 -0.000003
+      $definebone "tag_rail_attach" "tag_sling" -1.832007 -0.000008 0.000000 -0.000005 -0.000051 -0.000003 0.000000 0.000000 0.000000 -0.000005 0.000006 -0.000003
+	  $definebone "j_bolt" "tag_rail_attach" 8.183031 0.036012 0.692001 -0.000005 0.000006 -0.000003 0.000000 0.000000 0.000000 -0.000005 0.000006 -0.000003
+      $definebone "j_bolt_sleeve" "j_bolt" -2.802011 -0.000012 -0.000008 -0.000005 0.000006 -0.000003 0.000001 0.000000 0.000000 -0.000005 0.000006 -0.000003
+      $definebone "j_bolt_guide" "j_bolt" -1.111004 -0.000005 -0.000008 -0.000005 0.000006 -0.000003 0.000000 0.000000 0.000000 -0.000005 0.000006 -0.000003
       $definebone "j_mag_rel" "tag_sling" 6.734026 -0.001906 -2.366982 -0.000005 -0.000051 -0.000003 0.000000 0.000000 0.000000 -0.000005 0.000006 -0.000003
 	  $definebone "valvebiped.bip01_l_finger12" "j_index_le_3" -0.175201 -0.011333 0.025321 -6.75986 -4.163811 -172.98913 0 0 0 0 0 0
       $definebone "valvebiped.bip01_l_finger11" "j_index_le_2" -0.336788 -0.098448 -0.065715 -4.727008 1.5025 -171.607219 0 0 0 0 0 0
@@ -376,6 +382,9 @@ $bonemerge "Joints"
 $bonemerge "ValveBiped.Anim_Attachment_RH"
 $bonemerge "tag_sling"
 $bonemerge "j_gun"
+$bonemerge "j_bolt"
+$bonemerge "j_bolt_guide"
+$bonemerge "j_bolt_sleeve"
 $bonemerge "j_trigger"
 $bonemerge "tag_acog_2"
 $bonemerge "tag_barrel_attach"
@@ -460,7 +469,17 @@ $bonemerge "j_index_le_4"
 $bonemerge "j_index_ri_4"
 $bonemerge "j_safety"
 $bonemerge "tag_grip_hide"
-
+$bonemerge "tag_mag_attach" 
+$bonemerge "j_mag1"
+$bonemerge "j_ammo_01" 
+$bonemerge "j_ammo_02" 
+$bonemerge "j_ammo_03" 
+$bonemerge "j_ammo_04" 
+$bonemerge "j_follower"
+$bonemerge "j_mag2"
+$bonemerge "j_ammo_09" 
+$bonemerge "tag_pistolgrip_attach"
+$bonemerge "tag_silencer"
 
 $sectionframes 30 29
 
@@ -484,10 +503,10 @@ $animation "a_delta_ads_additive_for_offset_corrective_animation" "vm_sn_alpha50
 $animation "a_jog_offset_idle_corrective_animation" "vm_sn_alpha50_anims\a_jog_offset_idle_corrective_animation.smd" {
 }
 
-$animation "a_jog_offset_corrective_animation" "anims\corrective.smd" {
+$animation "a_jog_offset_corrective_animation" "vm_sn_alpha50_anims\a_jog_offset_corrective_animation.smd" {
 }
 
-$animation "@a_jog_to_walk_corrective_animation" "anims\corrective.smd" {
+$animation "@a_jog_to_walk_corrective_animation" "vm_sn_alpha50_anims\@a_jog_to_walk_corrective_animation.smd" {
 }
 
 $animation "a_jog_idle_corrective_animation" "vm_sn_alpha50_anims\a_jog_idle_corrective_animation.smd" {
@@ -502,7 +521,7 @@ $animation "a_walk_idle_corrective_animation" "vm_sn_alpha50_anims\a_walk_idle_c
 $animation "a_walk_corrective_animation" "vm_sn_alpha50_anims\a_walk_corrective_animation.smd" {
 }
 
-$animation "@a_walk_to_sprint_corrective_animation" "anims\corrective.smd" {
+$animation "@a_walk_to_sprint_corrective_animation" "vm_sn_alpha50_anims\@a_walk_to_sprint_corrective_animation.smd" {
 }
 
 $animation "a_sprint_idle_corrective_animation" "vm_sn_alpha50_anims\a_sprint_idle_corrective_animation.smd" {
@@ -511,7 +530,7 @@ $animation "a_sprint_idle_corrective_animation" "vm_sn_alpha50_anims\a_sprint_id
 $animation "a_sprint_corrective_animation" "vm_sn_alpha50_anims\a_sprint_corrective_animation.smd" {
 }
 
-$animation "@a_sprint_to_walk_corrective_animation" "anims\corrective.smd" {
+$animation "@a_sprint_to_walk_corrective_animation" "vm_sn_alpha50_anims\@a_sprint_to_walk_corrective_animation.smd" {
 }
 
 $animation "a_sprint_offset_idle_corrective_animation" "vm_sn_alpha50_anims\a_sprint_offset_idle_corrective_animation.smd" {
@@ -574,7 +593,7 @@ $animation "a_jog_offset_idle" "vm_sn_alpha50_anims\a_jog_offset_idle.smd" {
 	subtract "a_jog_offset_idle_corrective_animation" 0
 }
 
-$animation "a_jog_offset" "anims\a_jog_offset.smd" {
+$animation "a_jog_offset" "vm_sn_alpha50_anims\a_jog_offset.smd" {
 	fps 30
 	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
 	subtract "a_jog_offset_corrective_animation" 0
@@ -863,6 +882,61 @@ $sequence "rechamber" {
 	ikrule "lhand" touch "tag_ik_loc_le" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 1 usesource 
 }
 
+$sequence "rechamber_heavy" {
+	"anims\vm_p21_sn_mromeo_rechamber_heavy.smd"
+	"anims\vm_p21_sn_mromeo_ads_rechamber_heavy.smd"
+	blend "aim_offset" 0 1
+	blendwidth 2
+	{ event 5004 6 "wfoly_plr_sn_alpha50_rechamber_01" }
+	{ event 5004 10 "Viewmodel.Small" }
+	{ event 5004 14 "Viewmodel.Medium" }
+	{ event 5004 21 "Viewmodel.Small" }
+	{ event 5004 22 "wfoly_plr_sn_alpha50_rechamber_02" }
+	{ event 5004 24 "Viewmodel.Medium" }
+	{ event 5004 28 "Viewmodel.Small" }
+	{ event 6001 15 "shell_eject" }
+	{ event 9001 15 "Ejection shell_eject" }
+	fadein 0.2
+	fadeout 0.2
+	addlayer "jog_loop"
+	addlayer "jog_offset"
+	addlayer "walk_loop"
+	addlayer "sprint_loop"
+	addlayer "sprint_offset"
+	addlayer "freefall_loop"
+	addlayer "aim_offset"
+	fps 30
+	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0 usesource 
+	ikrule "lhand" touch "tag_ik_loc_le" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 1 usesource 
+}
+$sequence "rechamber_light" {
+	"anims\vm_p21_sn_mromeo_rechamber_light.smd"
+	"anims\vm_p21_sn_mromeo_ads_rechamber_light.smd"
+	blend "aim_offset" 0 1
+	blendwidth 2
+	{ event 5004 6 "wfoly_plr_sn_alpha50_rechamber_01" }
+	{ event 5004 10 "Viewmodel.Small" }
+	{ event 5004 14 "Viewmodel.Medium" }
+	{ event 5004 21 "Viewmodel.Small" }
+	{ event 5004 22 "wfoly_plr_sn_alpha50_rechamber_02" }
+	{ event 5004 24 "Viewmodel.Medium" }
+	{ event 5004 28 "Viewmodel.Small" }
+	{ event 6001 15 "shell_eject" }
+	{ event 9001 15 "Ejection shell_eject" }
+	fadein 0.2
+	fadeout 0.2
+	addlayer "jog_loop"
+	addlayer "jog_offset"
+	addlayer "walk_loop"
+	addlayer "sprint_loop"
+	addlayer "sprint_offset"
+	addlayer "freefall_loop"
+	addlayer "aim_offset"
+	fps 30
+	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0 usesource 
+	ikrule "lhand" touch "tag_ik_loc_le" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 1 usesource 
+}
+
 $sequence "reload" {
 	"anims\vm_p21_sn_mromeo_reload_scope.smd"
 	"anims\vm_p21_sn_mromeo_ads_reload.smd"
@@ -1025,7 +1099,7 @@ $sequence "reload_smag" {
 	ikrule "lhand" touch "tag_ik_loc_le" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 1 usesource 
 }
 
-$sequence "reload_mmag_fast" {
+$sequence "reload_smag_fast" {
 	"anims\vm_p21_sn_mromeo_reload_fast_smags.smd"
 	"anims\vm_p21_sn_mromeo_ads_reload_fast_smags.smd"
 	blend "aim_offset" 0 1
@@ -1219,7 +1293,7 @@ $sequence "reload_empty_xmag_fast" {
 	ikrule "lhand" touch "tag_ik_loc_le" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 1 usesource 
 }
 
-$sequence "reload_empty_mmag" {
+$sequence "reload_empty_smag" {
 	"anims\vm_p21_sn_mromeo_reload_empty_smags_scope.smd"
 	"anims\vm_p21_sn_mromeo_ads_reload_empty_smags.smd"
 	blend "aim_offset" 0 1
@@ -1262,7 +1336,7 @@ $sequence "reload_empty_mmag" {
 	ikrule "lhand" touch "tag_ik_loc_le" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 1 usesource 
 }
 
-$sequence "reload_empty_mmag_fast" {
+$sequence "reload_empty_smag_fast" {
 	"anims\vm_p21_sn_mromeo_reload_empty_fast_smags.smd"
 	"anims\vm_p21_sn_mromeo_ads_reload_empty_fast_smags.smd"
 	blend "aim_offset" 0 1
@@ -1537,7 +1611,7 @@ $sequence "jog_offset" {
 }
 
 $sequence "a_jog_to_walk" {
-	"anims\a_jog_to_walk.smd"
+	"vm_sn_alpha50_anims\a_jog_to_walk.smd"
 	delta
 	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
 	subtract "@a_jog_to_walk_corrective_animation" 0
@@ -1585,7 +1659,7 @@ $sequence "walk_loop" {
 }
 
 $sequence "a_walk_to_sprint" {
-	"anims\a_walk_to_sprint.smd"
+	"vm_sn_alpha50_anims\a_walk_to_sprint.smd"
 	delta
 	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
 	subtract "@a_walk_to_sprint_corrective_animation" 0
@@ -1622,7 +1696,7 @@ $sequence "sprint_loop" {
 }
 
 $sequence "a_sprint_to_walk" {
-	"anims\a_sprint_to_walk.smd"
+	"vm_sn_alpha50_anims\a_sprint_to_walk.smd"
 	delta
 	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
 	subtract "@a_sprint_to_walk_corrective_animation" 0
