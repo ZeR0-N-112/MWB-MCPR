@@ -40,9 +40,19 @@ SWEP.Customization = {
     "wp_r8t",       "wp_x3",       "wp_fc1",
     "wp_sf2",       "wp_x5",       "wp_lco",
     "wp_uh1",       "wp_x8",       "wp_mro_8", "wp_acog_rm45"},
+	
+	{"attachment_vm_sn_mromeo_barlong", "attachment_vm_sn_mromeo_barsil", 
+    "attachment_vm_sn_alpha50_barmid", "attachment_vm_sn_alpha50_barel"},
+	
+	{"att_muzzle", "att_vm_alpha50_compensator01", "att_vm_alpha50_flashhider01", "att_vm_alpha50_muzzlebrake01", 
+    "att_vm_alpha50_muzzlebrake02", "att_vm_alpha50_silencer01", "att_vm_alpha50_silencer02", "att_vm_alpha50_silencer03"}, 
 
     {"att_laser", "attachment_vm_sn_alpha50_laser01", "attachment_vm_sn_alpha50_laser02", 
     "attachment_vm_sn_alpha50_laser03"},
+	
+	{"attachment_vm_sn_mromeo_stocks"},
+	
+	{"attachment_vm_sn_mromeo_stocks"},
 }
 
 --NECESSARY: it loads custom attachments from other authors
