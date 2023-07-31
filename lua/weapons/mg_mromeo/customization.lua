@@ -23,7 +23,7 @@ SWEP.Customization = {
     {"att_perk", "attachment_vm_sn_alpha50_perk_soh", 
     "att_perk_steadywalk", "att_perk_nodrop", "att_perk_scopesway"}, 
 
-   {"att_sight", "att_vm_minireddot01_tall", "att_vm_minireddot02_tall", "att_vm_minireddot03_tall",
+   {"att_sight", "att_vm_scopetherm_dmr_mromeo_v4", "att_vm_minireddot01_tall", "att_vm_minireddot02_tall", "att_vm_minireddot03_tall",
    "att_vm_holo_west01", "att_vm_holo_west02", "att_vm_holo_east01", "att_vm_reflex_east01",
    "att_vm_reflex_east02", "att_vm_reflex_west02_tall", "att_vm_reflex_west03",
    "att_vm_thermal_east01", "att_vm_thermal_west01", "att_vm_thermal_east01_hybrid",
@@ -46,7 +46,7 @@ SWEP.Customization = {
 	
 	{"attachment_vm_sn_mromeo_mag", "attachment_vm_sn_mromeo_smags", "attachment_vm_sn_mromeo_xmags"},
 	
-	{"att_muzzle", "att_vm_alpha50_compensator01", "att_vm_alpha50_flashhider01", "att_vm_alpha50_muzzlebrake01", 
+	{"att_muzzle", "att_vm_silencer_dm01_mromeo_v4", "att_vm_alpha50_compensator01", "att_vm_alpha50_flashhider01", "att_vm_alpha50_muzzlebrake01", 
    "att_vm_alpha50_muzzlebrake02", "att_vm_alpha50_silencer01", "att_vm_alpha50_silencer02", "att_vm_alpha50_silencer03"}, 
 
    {"att_laser", "attachment_vm_sn_alpha50_laser01", "attachment_vm_sn_alpha50_laser02", 
@@ -57,6 +57,8 @@ SWEP.Customization = {
 	{"attachment_vm_sn_mromeo_bolt", "attachment_vm_sn_mromeo_boltl", "attachment_vm_sn_mromeo_bolth"},
 	
 	{"attachment_vm_sn_mromeo_grip", "attachment_vm_sn_mromeo_gripl", "attachment_vm_sn_mromeo_griptac", "attachment_vm_sn_mromeo_griph"},
+	
+	{"att_skin_mcpr", "att_skin_mcpr_v4"},
 }
 
 --NECESSARY: it loads custom attachments from other authors
