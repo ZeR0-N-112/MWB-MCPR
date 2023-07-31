@@ -325,6 +325,42 @@ SWEP.Animations = {
             {Time = 0.733, Callback = function(self) self:DoSound(Sound("wfoly_plr_sn_alpha50_rechamber_02")) end},
         }
     },
+	
+	    ["Rechamber_l"] = {
+        Sequences = {"rechamber_light"},
+        Fps = 30,
+        Length = 1,
+        NextSequence = "Idle",
+        Events = {
+            {
+                Time = 0.5, 
+                Callback = function(self) 
+                    self:DoEjection("shell_eject")
+                end
+            },
+            {Time = 0.2, Callback = function(self) self:DoSound(Sound("wfoly_plr_sn_alpha50_rechamber_01")) end},
+            {Time = 0.733, Callback = function(self) self:DoSound(Sound("wfoly_plr_sn_alpha50_rechamber_02")) end},
+        }
+    },
+
+
+    ["Rechamber_h"] = {
+        Sequences = {"rechamber_heavy"},
+        Fps = 30,
+        Length = 1.5,
+        NextSequence = "Idle",
+        Events = {
+            {
+                Time = 0.5, 
+                Callback = function(self) 
+                    self:DoEjection("shell_eject")
+                end
+            },
+            {Time = 0.2, Callback = function(self) self:DoSound(Sound("wfoly_plr_sn_alpha50_rechamber_01")) end},
+            {Time = 0.733, Callback = function(self) self:DoSound(Sound("wfoly_plr_sn_alpha50_rechamber_02")) end},
+        }
+    },
+
 
     ["Fire_Last"] = {
         Sequences = {"fire"},

@@ -5,8 +5,10 @@ ATTACHMENT.Icon = Material("viper/mw/attachments/icons/alpha50/icon_attachment_s
 
 --Current mag
 ATTACHMENT.BulletList = {
-    [1] = {"j_bullet_01"},
-    [2] = {"j_bullet_02"},
+    [1] = {"j_ammo_01"},
+    [2] = {"j_ammo_02"},
+    [3] = {"j_ammo_03"},
+    [4] = {"j_ammo_04"},
 }
 
 
@@ -21,7 +23,5 @@ function ATTACHMENT:Stats(weapon)
     weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 0.85
     weapon.Animations.Draw.Fps = weapon.Animations.Draw.Fps * 0.9
     weapon.Animations.Holster.Fps = weapon.Animations.Holster.Fps * 0.9
-    weapon.Animations.Reload.Fps = weapon.Animations.Reload.Fps * 0.85
-    weapon.Animations.Reload_Empty.Fps = weapon.Animations.Reload_Empty.Fps * 0.85
     weapon.Primary.ClipSize = 15
 end
