@@ -1,6 +1,6 @@
 ATTACHMENT.Base = "att_magazine"
-ATTACHMENT.Name = "9 Round Mags"
-ATTACHMENT.Model = Model("models/viper/mw/attachments/alpha50/attachment_vm_sn_alpha50_xmags.mdl")
+ATTACHMENT.Name = "15 Round Mag"
+ATTACHMENT.Model = Model("models/zeron/att_vm_p21_sn_mromeo_xmag.mdl")
 ATTACHMENT.Icon = Material("viper/mw/attachments/icons/alpha50/icon_attachment_sn_alpha50_xmags.vmt")
 
 --Current mag
@@ -23,5 +23,5 @@ function ATTACHMENT:Stats(weapon)
     weapon.Animations.Holster.Fps = weapon.Animations.Holster.Fps * 0.9
     weapon.Animations.Reload.Fps = weapon.Animations.Reload.Fps * 0.85
     weapon.Animations.Reload_Empty.Fps = weapon.Animations.Reload_Empty.Fps * 0.85
-    weapon.Primary.ClipSize = 9
+    weapon.Primary.ClipSize = 15
 end

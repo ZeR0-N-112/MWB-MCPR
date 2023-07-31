@@ -1,7 +1,13 @@
 ATTACHMENT.Base = "att_magazine"
-ATTACHMENT.Name = "7 Round Mags"
-ATTACHMENT.Model = Model("models/viper/mw/attachments/alpha50/attachment_vm_sn_alpha50_mmags.mdl")
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/alpha50/icon_attachment_sn_alpha50_mmags.vmt")
+ATTACHMENT.Name = "5 Round Mag"
+ATTACHMENT.Model = Model("models/zeron/att_vm_p21_sn_mromeo_smag.mdl")
+ATTACHMENT.Icon = Material("viper/mw/attachments/icons/alpha50/icon_attachment_sn_alpha50_xmags.vmt")
+
+--Current mag
+ATTACHMENT.BulletList = {
+    [1] = {"j_bullet_01"},
+    [2] = {"j_bullet_02"},
+}
 
 
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
@@ -15,5 +21,5 @@ function ATTACHMENT:Stats(weapon)
     weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 0.93
     weapon.Animations.Reload.Fps = weapon.Animations.Reload.Fps * 0.95
     weapon.Animations.Reload_Empty.Fps = weapon.Animations.Reload_Empty.Fps * 0.95
-    weapon.Primary.ClipSize = 7
+    weapon.Primary.ClipSize = 	5
 end

@@ -10,10 +10,12 @@
     "$blendtintbybasealpha" "1"
 
     "$phong" "1"
-    "$phongboost" "1"
+    "$phongboost" "0.82"
     "$phongfresnelranges" "[1 0.5 0]"
-    "$phongalbedotint" "1"
-    "$phongalbedoboost" "3"
+    "$phongexponent" "0"
+    "$phongtint" "[1 0.6 0.2]"
+    "$phongalbedotint" "0"
+
     //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
     "$rimlight" "1"
     "$rimlightexponent" "100"
@@ -30,9 +32,11 @@
     {
         "MwEnvMapTint"
         {
+            "color"    "[1.525 0.925 0.3525]"
+            "envmap"    "viper/shared/envmaps/painted_silver.hdr"
             "specularity" "0.5"             //0.25, 0.5, 0.75, 1
             "min" "0"
-            "max" "0.2"                       //change this if too bright in game
+            "max" "0.4"                       //change this if too bright in game
         }
     }
 }

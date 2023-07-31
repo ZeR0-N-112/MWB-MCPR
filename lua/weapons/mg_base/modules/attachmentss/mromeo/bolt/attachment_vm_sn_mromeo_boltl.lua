@@ -1,4 +1,4 @@
-ATTACHMENT.Base = "att_stock"
+ATTACHMENT.Base = "att_bolt"
 ATTACHMENT.Name = "Cronen Smooth Bolt"
 ATTACHMENT.Model = Model("models/zeron/att_vm_p21_sn_mromeo_boltl.mdl")
 ATTACHMENT.Icon = Material("viper/mw/attachments/icons/alpha50/icon_attachment_sn_alpha50_stocks.vmt")

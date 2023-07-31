@@ -37,7 +37,7 @@ SWEP.FreezeInspectDelta = 0.3
 
 SWEP.Primary.Sound = Sound("weap_alpha50_fire_plr")
 SWEP.Primary.Ammo = "357"
-SWEP.Primary.ClipSize = 5
+SWEP.Primary.ClipSize = 10
 SWEP.Primary.Automatic = false
 SWEP.Primary.BurstRounds = 1
 SWEP.Primary.BurstDelay = 0
@@ -150,8 +150,8 @@ SWEP.WorldModelOffsets = {
 
 SWEP.ViewModelOffsets = {
     Sprint = {
-        Angles = Angle(-1, 15, -5),
-        Pos = Vector(6, 2, 2)
+        Angles = Angle(-3, 13, -2),
+        Pos = Vector(4, -3, 6)
     },
     Aim = {
         Angles = Angle(0, 0.4, 3),

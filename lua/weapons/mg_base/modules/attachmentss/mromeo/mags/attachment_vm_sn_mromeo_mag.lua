@@ -1,5 +1,5 @@
 ATTACHMENT.Base = "att_magazine"
-ATTACHMENT.Model = Model("models/viper/mw/attachments/alpha50/attachment_vm_sn_alpha50_mag.mdl")
+ATTACHMENT.Model = Model("models/zeron/att_vm_p21_sn_mromeo_mag.mdl")
 
 --Current mag
 ATTACHMENT.BulletList = {
