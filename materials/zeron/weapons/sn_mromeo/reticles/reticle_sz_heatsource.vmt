@@ -1,0 +1,21 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"zeron/reticles/reticle_sz_heatsource"
+	//"$detail"		"viper/mw/reticles/laser_noise"
+	//"$detailblendmode" "2"
+	//"$detailframe"	"0"
+	"$translucent" 	"1"
+	//"$model"		"1"
+	"$ignorez" "1"
+	"$additive" "0"
+	
+	//Proxies
+	//{
+	//	TextureScroll
+	//	{
+	//		textureScrollVar	$detailtexturetransform
+	//		textureScrollRate	50
+	//		textureScrollAngle 	180
+	//	}
+	//}
+}
