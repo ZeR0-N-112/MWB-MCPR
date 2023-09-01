@@ -2,7 +2,6 @@ ATTACHMENT.Base = "att_optic_10x"
 ATTACHMENT.Name = "Corio 13X VRS"
 ATTACHMENT.Model = Model("models/zeron/att_vm_p21_sn_mromeo_vzscope_v0_LOD0.mdl")
 ATTACHMENT.Icon = Material("kyo/attachments/mromeo/mg_mromeo_vzscope.vmt")
-ATTACHMENT.UIColor = Color(107,122,64)
 ATTACHMENT.Bodygroups ={
     ["tag_sight"] = 2,
     ["tag_rail"] = 1,

@@ -47,7 +47,7 @@ SWEP.CanDisableAimReload = false
 SWEP.ReloadRechambers = true
 SWEP.Projectile = {
     Class = "mg_sniper_bullet", --bullet entity class
-    Speed = 60000, 
+    Speed = 30000, 
     Gravity = 8,
     Penetrate = true
 }
@@ -150,8 +150,8 @@ SWEP.WorldModelOffsets = {
 
 SWEP.ViewModelOffsets = {
     Sprint = {
-        Angles = Angle(0, 0, 0),
-        Pos = Vector(0, -5, 6)
+        Angles = Angle(0, 20, 0),
+        Pos = Vector(4, -4, 6)
     },
     Aim = {
         Angles = Angle(-0.01, 0.076, 3.7),
