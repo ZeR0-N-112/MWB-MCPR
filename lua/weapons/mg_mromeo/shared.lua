@@ -144,8 +144,8 @@ SWEP.Zoom = {
 
 SWEP.WorldModelOffsets = {
     Bone = "tag_sling",
-    Angles = Angle(10,5,180),
-    Pos = Vector(10,-2, -1.5)
+    Angles = Angle(0,-90,180),
+    Pos = Vector(-7,11, -61)
 }
 
 SWEP.ViewModelOffsets = {

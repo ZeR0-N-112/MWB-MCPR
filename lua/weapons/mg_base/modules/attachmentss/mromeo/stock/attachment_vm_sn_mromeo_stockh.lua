@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_stock"
 ATTACHMENT.Name = "Cronen Lion Stock"
 ATTACHMENT.Model = Model("models/zeron/att_vm_p21_sn_mromeo_stockh_v0_lod0.mdl")
-ATTACHMENT.Icon = Material("kyo/attachments/mromeo/mg_mromeo_stockl.vmt")
+ATTACHMENT.Icon = Material("kyo/attachments/mromeo/mg_mromeo_stockh.vmt")
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 
 function ATTACHMENT:Stats(weapon)
