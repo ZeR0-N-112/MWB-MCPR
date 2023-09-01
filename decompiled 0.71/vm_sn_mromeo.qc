@@ -946,6 +946,7 @@ $sequence "reload" {
 	{ event 5004 20 "Viewmodel.Small" }
 	{ event 5004 23 "p21_sn_mromeo_reload_02" }
 	{ event 5004 24 "Viewmodel.Medium" }
+	{ event 9031 57 "ResetBullets" }
 	{ event 5004 53 "p21_sn_mromeo_reload_03" }
 	{ event 5004 66 "p21_sn_mromeo_reload_04" }
 	{ event 5004 59 "Viewmodel.Small" }
@@ -980,6 +981,7 @@ $sequence "reload_fast" {
 	{ event 5004 24 "Viewmodel.Medium" }
 	{ event 5004 37 "MW_MagazineDrop.AR.Metal -30,10,40" }
 	{ event 5004 22 "p21_sn_mromeo_reload_empty_smags_magout" }
+	{ event 9031 30 "ResetBullets" }
 	{ event 5004 38 "p21_sn_mromeo_reload_05" }
 	{ event 5004 59 "Viewmodel.Small" }
 	{ event 5004 45 "p21_sn_mromeo_reload_04" }
@@ -1012,6 +1014,7 @@ $sequence "reload_xmag" {
 	{ event 5004 24 "p21_sn_mromeo_reload_02" }
 	{ event 5004 24 "Viewmodel.Medium" }
 	{ event 5004 58 "p21_sn_mromeo_reload_03" }
+	{ event 9031 64 "ResetBullets" }
 	{ event 5004 67 "p21_sn_mromeo_reload_empty_xmags_maggrab" }
 	{ event 5004 59 "Viewmodel.Small" }
 	{ event 5004 69 "p21_sn_mromeo_reload_empty_xmags_magin" }
@@ -1046,6 +1049,7 @@ $sequence "reload_xmag_fast" {
 	{ event 5004 24 "Viewmodel.Medium" }
 	{ event 5004 37 "MW_MagazineDrop.AR.Metal -30,10,40" }
 	{ event 5004 17 "p21_sn_mromeo_reload_empty_xmags_magout" }
+	{ event 9031 30 "ResetBullets" }
 	{ event 5004 37 "p21_sn_mromeo_reload_empty_xmags_magin" }
 	{ event 5004 59 "Viewmodel.Small" }
 	{ event 5004 56 "p21_sn_mromeo_reload_empty_xmags_magslap" }
@@ -1078,6 +1082,7 @@ $sequence "reload_smag" {
 	{ event 5004 20 "Viewmodel.Small" }
 	{ event 5004 27 "p21_sn_mromeo_reload_empty_smags_magout" }
 	{ event 5004 24 "Viewmodel.Medium" }
+	{ event 9031 31 "ResetBullets" }
 	{ event 5004 44 "p21_sn_mromeo_reload_03" }
 	{ event 5004 58 "p21_sn_mromeo_reload_empty_smags_rattle" }
 	{ event 5004 59 "Viewmodel.Small" }
@@ -1109,6 +1114,7 @@ $sequence "reload_smag_fast" {
 	{ event 5004 20 "Viewmodel.Small" }
 	{ event 5004 15 "p21_sn_mromeo_reload_empty_smags_magout" }
 	{ event 5004 32 "MW_MagazineDrop.AR.Metal -30,10,40" }
+	{ event 9031 23 "ResetBullets" }
 	{ event 5004 24 "Viewmodel.Medium" }
 	{ event 5004 24 "p21_sn_mromeo_reload_empty_smags_rattle" }
 	{ event 5004 59 "Viewmodel.Small" }
@@ -1145,6 +1151,7 @@ $sequence "reload_empty" {
 	{ event 5004 41 "p21_sn_mromeo_reload_empty_02" }
 	{ event 5004 24 "Viewmodel.Medium" }
 	{ event 5004 45 "p21_sn_mromeo_reload_empty_03" }
+	{ event 9031 62 "ResetBullets" }
 	{ event 5004 59 "Viewmodel.Small" }
 	{ event 5004 81 "p21_sn_mromeo_reload_empty_04" }
 	{ event 5004 65 "Viewmodel.Small" }
@@ -1182,6 +1189,7 @@ $sequence "reload_empty_fast" {
 	{ event 5004 43 "MW_MagazineDrop.AR.Metal -30,10,40" }
 	{ event 5004 24 "Viewmodel.Medium" }
 	{ event 5004 22 "p21_sn_mromeo_reload_empty_smags_magout" }
+	{ event 9031 29 "ResetBullets" }
 	{ event 5004 38 "p21_sn_mromeo_reload_05" }
 	{ event 5004 59 "Viewmodel.Small" }
 	{ event 5004 45 "p21_sn_mromeo_reload_04" }
@@ -1220,6 +1228,7 @@ $sequence "reload_empty_xmag" {
 	{ event 5004 41 "p21_sn_mromeo_reload_empty_02" }
 	{ event 5004 24 "Viewmodel.Medium" }
 	{ event 5004 45 "p21_sn_mromeo_reload_empty_xmags_magout" }
+	{ event 9031 63 "ResetBullets" }
 	{ event 5004 59 "Viewmodel.Small" }
 	{ event 5004 84 "p21_sn_mromeo_reload_empty_xmags_magin" }
 	{ event 5004 65 "Viewmodel.Small" }
@@ -1257,6 +1266,7 @@ $sequence "reload_empty_xmag_fast" {
 	{ event 5004 24 "Viewmodel.Medium" }
 	{ event 5004 38 "MW_MagazineDrop.AR.Metal -30,10,40" }
 	{ event 5004 22 "p21_sn_mromeo_reload_empty_smags_magout" }
+	{ event 9031 38 "ResetBullets" }
 	{ event 5004 39 "p21_sn_mromeo_reload_empty_xmags_magin" }
 	{ event 5004 57 "p21_sn_mromeo_reload_empty_xmags_magslap" }
 	{ event 5004 59 "Viewmodel.Small" }
@@ -1297,6 +1307,7 @@ $sequence "reload_empty_smag" {
 	{ event 5004 24 "Viewmodel.Medium" }
 	{ event 5004 42 "p21_sn_mromeo_reload_empty_smags_magout" }
 	{ event 5004 59 "Viewmodel.Small" }
+	{ event 9031 50 "ResetBullets" }
 	{ event 5004 77 "p21_sn_mromeo_reload_empty_smags_magin" }
 	{ event 5004 65 "Viewmodel.Small" }
 	{ event 5004 85 "p21_sn_mromeo_reload_empty_smags_rattle" }
@@ -1333,6 +1344,7 @@ $sequence "reload_empty_smag_fast" {
 	{ event 5004 24 "Viewmodel.Medium" }
 	{ event 5004 33 "MW_MagazineDrop.AR.Metal -30,10,40" }
 	{ event 5004 16 "p21_sn_mromeo_reload_empty_smags_magout" }
+	{ event 9031 23 "ResetBullets" }
 	{ event 5004 29 "p21_sn_mromeo_reload_empty_smags_magin" }
 	{ event 5004 35 "p21_sn_mromeo_reload_empty_smags_rattle" }
 	{ event 5004 59 "Viewmodel.Small" }
