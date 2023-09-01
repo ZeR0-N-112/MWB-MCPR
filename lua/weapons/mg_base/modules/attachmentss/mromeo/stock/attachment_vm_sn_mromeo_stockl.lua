@@ -12,4 +12,5 @@ function ATTACHMENT:Stats(weapon)
     weapon.Animations.Holster.Fps = weapon.Animations.Holster.Fps * 1.12
     weapon.Recoil.AdsMultiplier = weapon.Recoil.AdsMultiplier * 1.2
     weapon.Zoom.MovementMultiplier = weapon.Zoom.MovementMultiplier * 1.5
+	weapon.Recoil.Punch = weapon.Recoil.Punch * 2
 end
