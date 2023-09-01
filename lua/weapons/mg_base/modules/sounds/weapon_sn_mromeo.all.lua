@@ -235,7 +235,7 @@ sound.Add({
 -- Sound: 25
 -- Sound: 27
 sound.Add({
-	name = "p21_sn_mromeo_rechamber_01",
+	name = "p21_sn_mromeo_rechamber_heavy_01",
 	channel = CHAN_WPNFOLEY + 1,
 	
 	volume = 1,
@@ -251,13 +251,53 @@ sound.Add({
 		}
 })
 sound.Add({
-	name = "p21_sn_mromeo_rechamber_02",
+	name = "p21_sn_mromeo_rechamber_heavy_02",
 	channel = CHAN_WPNFOLEY + 2,
 	
 	volume = 1,
 	pitch = {100,100},
 	sound = {
 		"zeron/mromeo/wfoly_sn_alpha50_rechamber_02.wav",
+		}
+})
+sound.Add({
+	name = "p21_sn_mromeo_rechamber_01",
+	channel = CHAN_WPNFOLEY + 1,
+	
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"zeron/mromeo/p21_sn_mromeo_reload_empty_smags_boltback.wav",
+		}
+})
+sound.Add({
+	name = "p21_sn_mromeo_rechamber_02",
+	channel = CHAN_WPNFOLEY + 2,
+	
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"zeron/mromeo/p21_sn_mromeo_reload_empty_boltclose.wav",
+		}
+})
+sound.Add({
+	name = "p21_sn_mromeo_rechamber_light_01",
+	channel = CHAN_WPNFOLEY + 1,
+	
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"zeron/mromeo/p21_sn_mromeo_reload_empty_xmags_boltback.wav",
+		}
+})
+sound.Add({
+	name = "p21_sn_mromeo_rechamber_light_02",
+	channel = CHAN_WPNFOLEY + 2,
+	
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"zeron/mromeo/p21_sn_mromeo_reload_empty_xmags_boltclose.wav",
 		}
 })
 -- Sound: 28
@@ -440,6 +480,26 @@ sound.Add({
 })
 -- Sound: 54
 sound.Add({
+	name = "p21_sn_mromeo_reload_empty_smags_magout",
+	channel = CHAN_WPNFOLEY + 7,
+	
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"zeron/mromeo/p21_sn_mromeo_reload_empty_smags_magout.wav",
+		}
+})
+sound.Add({
+	name = "p21_sn_mromeo_reload_empty_smags_rattle",
+	channel = CHAN_WPNFOLEY + 7,
+	
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"zeron/mromeo/p21_sn_mromeo_reload_empty_smags_rattle.wav",
+		}
+})
+sound.Add({
 	name = "p21_sn_mromeo_reload_empty_smags_magin",
 	channel = CHAN_WPNFOLEY + 7,
 	
@@ -447,6 +507,16 @@ sound.Add({
 	pitch = {100,100},
 	sound = {
 		"zeron/mromeo/p21_sn_mromeo_reload_empty_smags_magin.wav",
+		}
+})
+sound.Add({
+	name = "p21_sn_mromeo_reload_empty_smags_end",
+	channel = CHAN_WPNFOLEY + 7,
+	
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"zeron/mromeo/p21_sn_mromeo_reload_empty_smags_end.wav",
 		}
 })
 -- Sound: 55
@@ -480,5 +550,45 @@ sound.Add({
 	pitch = {100,100},
 	sound = {
 		"zeron/mromeo/p21_sn_mromeo_reload_empty_xmags_magslap.wav",
+		}
+})
+sound.Add({
+	name = "p21_sn_mromeo_reload_empty_xmags_maggrab",
+	channel = CHAN_WPNFOLEY + 10,
+	
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"zeron/mromeo/p21_sn_mromeo_reload_empty_xmags_maggrab.wav",
+		}
+})
+sound.Add({
+	name = "p21_sn_mromeo_reload_empty_xmags_magin",
+	channel = CHAN_WPNFOLEY + 10,
+	
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"zeron/mromeo/p21_sn_mromeo_reload_empty_xmags_magin.wav",
+		}
+})
+sound.Add({
+	name = "p21_sn_mromeo_reload_empty_xmags_end",
+	channel = CHAN_WPNFOLEY + 10,
+	
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"zeron/mromeo/p21_sn_mromeo_reload_empty_xmags_end.wav",
+		}
+})
+sound.Add({
+	name = "p21_sn_mromeo_reload_empty_xmags_magout",
+	channel = CHAN_WPNFOLEY + 10,
+	
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"zeron/mromeo/p21_sn_mromeo_reload_empty_xmags_magout.wav",
 		}
 })
