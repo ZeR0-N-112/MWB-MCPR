@@ -1,4 +1,4 @@
-ATTACHMENT.Base = "att_skin_mutant"
+ATTACHMENT.Base = "att_receiver"
 ATTACHMENT.Name = "Sequoia"
 ATTACHMENT.UIColor = Color(107,122,64)
 ATTACHMENT.CosmeticChange = true

@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_magazine"
 ATTACHMENT.Name = "15 Round Mag"
 ATTACHMENT.Model = Model("models/zeron/att_vm_p21_sn_mromeo_xmag.mdl")
-ATTACHMENT.Icon = Material("kyo/attachments/mromeo/mg_mromeo_smags.vmt")
+ATTACHMENT.Icon = Material("kyo/attachments/mromeo/mg_mromeo_xmag.vmt")
 
 --Current mag
 ATTACHMENT.BulletList = {
