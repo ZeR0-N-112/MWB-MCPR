@@ -38,14 +38,14 @@ sound.Add({
 	volume = 1,
 	pitch = {100,100},
 	sound = {
-		"zeron/mwii/weap_sniper6_fire_plr_atmo_ext1_01.wav",
-		"zeron/mwii/weap_sniper6_fire_plr_atmo_ext1_02.wav",
-		"zeron/mwii/weap_sniper6_fire_plr_atmo_ext1_03.wav",
-		"zeron/mwii/weap_sniper6_fire_plr_atmo_ext1_04.wav",
-		"zeron/mwii/weap_sniper6_fire_plr_atmo_ext1_05.wav",
-		"zeron/mwii/weap_sniper6_fire_plr_atmo_ext1_06.wav",
-		"zeron/mwii/weap_sniper6_fire_plr_atmo_ext1_07.wav",
-		"zeron/mwii/weap_sniper6_fire_plr_atmo_ext1_08.wav",
+		"zeron/mromeo/weap_sniper6_fire_plr_atmo_ext1_01.wav",
+		"zeron/mromeo/weap_sniper6_fire_plr_atmo_ext1_02.wav",
+		"zeron/mromeo/weap_sniper6_fire_plr_atmo_ext1_03.wav",
+		"zeron/mromeo/weap_sniper6_fire_plr_atmo_ext1_04.wav",
+		"zeron/mromeo/weap_sniper6_fire_plr_atmo_ext1_05.wav",
+		"zeron/mromeo/weap_sniper6_fire_plr_atmo_ext1_06.wav",
+		"zeron/mromeo/weap_sniper6_fire_plr_atmo_ext1_07.wav",
+		"zeron/mromeo/weap_sniper6_fire_plr_atmo_ext1_08.wav",
 		}
 })
 sound.Add({
@@ -55,12 +55,12 @@ sound.Add({
 	volume = 1,
 	pitch = {100,100},
 	sound = {
-		"zeron/mwii/weap_sniper_fire_plr_atmo_int1_01.wav",
-		"zeron/mwii/weap_sniper_fire_plr_atmo_int1_02.wav",
-		"zeron/mwii/weap_sniper_fire_plr_atmo_int1_03.wav",
-		"zeron/mwii/weap_sniper_fire_plr_atmo_int1_04.wav",
-		"zeron/mwii/weap_sniper_fire_plr_atmo_int1_05.wav",
-		"zeron/mwii/weap_sniper_fire_plr_atmo_int1_06.wav",
+		"zeron/mromeo/weap_sniper_fire_plr_atmo_int1_01.wav",
+		"zeron/mromeo/weap_sniper_fire_plr_atmo_int1_02.wav",
+		"zeron/mromeo/weap_sniper_fire_plr_atmo_int1_03.wav",
+		"zeron/mromeo/weap_sniper_fire_plr_atmo_int1_04.wav",
+		"zeron/mromeo/weap_sniper_fire_plr_atmo_int1_05.wav",
+		"zeron/mromeo/weap_sniper_fire_plr_atmo_int1_06.wav",
 		}
 })
 sound.Add({
@@ -70,12 +70,12 @@ sound.Add({
 	volume = 1,
 	pitch = {100,100},
 	sound = {
-		"zeron/mwii/weap_sniper_sup_fire_plr_atmo_ext4_01.wav",
-		"zeron/mwii/weap_sniper_sup_fire_plr_atmo_ext4_02.wav",
-		"zeron/mwii/weap_sniper_sup_fire_plr_atmo_ext4_03.wav",
-		"zeron/mwii/weap_sniper_sup_fire_plr_atmo_ext4_04.wav",
-		"zeron/mwii/weap_sniper_sup_fire_plr_atmo_ext4_05.wav",
-		"zeron/mwii/weap_sniper_sup_fire_plr_atmo_ext4_06.wav",
+		"zeron/mromeo/weap_sniper_sup_fire_plr_atmo_ext4_01.wav",
+		"zeron/mromeo/weap_sniper_sup_fire_plr_atmo_ext4_02.wav",
+		"zeron/mromeo/weap_sniper_sup_fire_plr_atmo_ext4_03.wav",
+		"zeron/mromeo/weap_sniper_sup_fire_plr_atmo_ext4_04.wav",
+		"zeron/mromeo/weap_sniper_sup_fire_plr_atmo_ext4_05.wav",
+		"zeron/mromeo/weap_sniper_sup_fire_plr_atmo_ext4_06.wav",
 		}
 })
 sound.Add({
@@ -85,12 +85,12 @@ sound.Add({
 	volume = 1,
 	pitch = {100,100},
 	sound = {
-		"zeron/mwii/weap_mromeo_sup_plr_interrupt_01.wav",
-		"zeron/mwii/weap_mromeo_sup_plr_interrupt_02.wav",
-		"zeron/mwii/weap_mromeo_sup_plr_interrupt_03.wav",
-		"zeron/mwii/weap_mromeo_sup_plr_interrupt_04.wav",
-		"zeron/mwii/weap_mromeo_sup_plr_interrupt_05.wav",
-		"zeron/mwii/weap_mromeo_sup_plr_interrupt_06.wav",
+		"zeron/mromeo/weap_mromeo_sup_plr_interrupt_01.wav",
+		"zeron/mromeo/weap_mromeo_sup_plr_interrupt_02.wav",
+		"zeron/mromeo/weap_mromeo_sup_plr_interrupt_03.wav",
+		"zeron/mromeo/weap_mromeo_sup_plr_interrupt_04.wav",
+		"zeron/mromeo/weap_mromeo_sup_plr_interrupt_05.wav",
+		"zeron/mromeo/weap_mromeo_sup_plr_interrupt_06.wav",
 		}
 })
 sound.Add({
@@ -100,12 +100,12 @@ sound.Add({
 	volume = 1,
 	pitch = {100,100},
 	sound = {
-		"zeron/mwii/weap_mromeo_sup_plr_mech_01.wav",
-		"zeron/mwii/weap_mromeo_sup_plr_mech_02.wav",
-		"zeron/mwii/weap_mromeo_sup_plr_mech_03.wav",
-		"zeron/mwii/weap_mromeo_sup_plr_mech_04.wav",
-		"zeron/mwii/weap_mromeo_sup_plr_mech_05.wav",
-		"zeron/mwii/weap_mromeo_sup_plr_mech_06.wav",
+		"zeron/mromeo/weap_mromeo_sup_plr_mech_01.wav",
+		"zeron/mromeo/weap_mromeo_sup_plr_mech_02.wav",
+		"zeron/mromeo/weap_mromeo_sup_plr_mech_03.wav",
+		"zeron/mromeo/weap_mromeo_sup_plr_mech_04.wav",
+		"zeron/mromeo/weap_mromeo_sup_plr_mech_05.wav",
+		"zeron/mromeo/weap_mromeo_sup_plr_mech_06.wav",
 		}
 })
 sound.Add({
@@ -115,12 +115,12 @@ sound.Add({
 	volume = 1,
 	pitch = {100,100},
 	sound = {
-		"zeron/mwii/weap_mromeo_sup_plr_mech_01.wav",
-		"zeron/mwii/weap_mromeo_sup_plr_mech_02.wav",
-		"zeron/mwii/weap_mromeo_sup_plr_mech_03.wav",
-		"zeron/mwii/weap_mromeo_sup_plr_mech_04.wav",
-		"zeron/mwii/weap_mromeo_sup_plr_mech_05.wav",
-		"zeron/mwii/weap_mromeo_sup_plr_mech_06.wav",
+		"zeron/mromeo/weap_mromeo_sup_plr_mech_01.wav",
+		"zeron/mromeo/weap_mromeo_sup_plr_mech_02.wav",
+		"zeron/mromeo/weap_mromeo_sup_plr_mech_03.wav",
+		"zeron/mromeo/weap_mromeo_sup_plr_mech_04.wav",
+		"zeron/mromeo/weap_mromeo_sup_plr_mech_05.wav",
+		"zeron/mromeo/weap_mromeo_sup_plr_mech_06.wav",
 		}
 })
 sound.Add({
@@ -130,12 +130,12 @@ sound.Add({
 	volume = 1,
 	pitch = {100,100},
 	sound = {
-		"zeron/mwii/weap_mromeo_fire_plr_mech_01.wav",
-		"zeron/mwii/weap_mromeo_fire_plr_mech_02.wav",
-		"zeron/mwii/weap_mromeo_fire_plr_mech_03.wav",
-		"zeron/mwii/weap_mromeo_fire_plr_mech_04.wav",
-		"zeron/mwii/weap_mromeo_fire_plr_mech_05.wav",
-		"zeron/mwii/weap_mromeo_fire_plr_mech_06.wav",
+		"zeron/mromeo/weap_mromeo_fire_plr_mech_01.wav",
+		"zeron/mromeo/weap_mromeo_fire_plr_mech_02.wav",
+		"zeron/mromeo/weap_mromeo_fire_plr_mech_03.wav",
+		"zeron/mromeo/weap_mromeo_fire_plr_mech_04.wav",
+		"zeron/mromeo/weap_mromeo_fire_plr_mech_05.wav",
+		"zeron/mromeo/weap_mromeo_fire_plr_mech_06.wav",
 		}
 })
 sound.Add({
@@ -145,12 +145,12 @@ sound.Add({
 	volume = 1,
 	pitch = {100,100},
 	sound = {
-		"zeron/mwii/weap_mromeo_fire_plr_interrupt_01.wav",
-		"zeron/mwii/weap_mromeo_fire_plr_interrupt_02.wav",
-		"zeron/mwii/weap_mromeo_fire_plr_interrupt_03.wav",
-		"zeron/mwii/weap_mromeo_fire_plr_interrupt_04.wav",
-		"zeron/mwii/weap_mromeo_fire_plr_interrupt_05.wav",
-		"zeron/mwii/weap_mromeo_fire_plr_interrupt_06.wav",
+		"zeron/mromeo/weap_mromeo_fire_plr_interrupt_01.wav",
+		"zeron/mromeo/weap_mromeo_fire_plr_interrupt_02.wav",
+		"zeron/mromeo/weap_mromeo_fire_plr_interrupt_03.wav",
+		"zeron/mromeo/weap_mromeo_fire_plr_interrupt_04.wav",
+		"zeron/mromeo/weap_mromeo_fire_plr_interrupt_05.wav",
+		"zeron/mromeo/weap_mromeo_fire_plr_interrupt_06.wav",
 		}
 })
 sound.Add({
@@ -160,9 +160,9 @@ sound.Add({
 	volume = 1,
 	pitch = {100,100},
 	sound = {
-		"zeron/mwii/weap_mromeo_fire_plr_fcg_01.wav",
-		"zeron/mwii/weap_mromeo_fire_plr_fcg_02.wav",
-		"zeron/mwii/weap_mromeo_fire_plr_fcg_03.wav",
+		"zeron/mromeo/weap_mromeo_fire_plr_fcg_01.wav",
+		"zeron/mromeo/weap_mromeo_fire_plr_fcg_02.wav",
+		"zeron/mromeo/weap_mromeo_fire_plr_fcg_03.wav",
 		}
 })
 -- Sound: 18
