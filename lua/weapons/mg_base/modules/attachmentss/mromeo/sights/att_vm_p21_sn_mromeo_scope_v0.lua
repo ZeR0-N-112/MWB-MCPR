@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_optic_10x"
 ATTACHMENT.Name = "MCPR-300 9.5X"
 ATTACHMENT.Model = Model("models/zeron/att_vm_p21_sn_mromeo_scope_v0_LOD0.mdl")
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/optics/icon_attachment_scope_vz.vmt")
+ATTACHMENT.Icon = Material("kyo/attachments/mromeo/mg_mromeo_scope.vmt")
 ATTACHMENT.UIColor = Color(107,122,64)
 ATTACHMENT.Bodygroups ={
     ["tag_sight"] = 2,

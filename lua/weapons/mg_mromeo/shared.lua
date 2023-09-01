@@ -10,8 +10,8 @@ include("animations.lua")
 include("customization.lua") 
 
 if CLIENT then
-    killicon.Add( "mg_alpha50", "VGUI/entities/mg_alpha50", Color(255, 0, 0, 255))
-    SWEP.WepSelectIcon = surface.GetTextureID("VGUI/spawnicons/icon_cac_weapon_sn_alpha50")
+    killicon.Add( "mg_mromeo", "kyo/attachments/mromeo/mg_mromeo", Color(255, 0, 0, 255))
+    SWEP.WepSelectIcon = surface.GetTextureID("VGUI/spawnicons/mg_mromeo_killicon")
 end
 
 SWEP.GripPoseParameters = {"grip_ang_offset", "grip_vert_offset"}
@@ -24,7 +24,7 @@ SWEP.Category = "Modern Warfare"
 SWEP.SubCategory = "Sniper Rifles"
 SWEP.Spawnable = true
 SWEP.VModel = Model("models/zeron/vm_sn_mromeo.mdl")
-SWEP.WorldModel = Model("models/viper/mw/weapons/w_alpha50.mdl") 
+SWEP.WorldModel = Model("models/zeron/wm_sn_mromeo.mdl") 
 SWEP.Trigger = {
     PressedSound = Sound("weap_delta_fire_first"),
     ReleasedSound = Sound("p21_sn_mromeo_fire_disconnector"),
@@ -41,7 +41,7 @@ SWEP.Primary.ClipSize = 10
 SWEP.Primary.Automatic = false
 SWEP.Primary.BurstRounds = 1
 SWEP.Primary.BurstDelay = 0
-SWEP.Primary.RPM = 300  
+SWEP.Primary.RPM = 400 
 SWEP.CanChamberRound = true
 SWEP.CanDisableAimReload = false
 SWEP.ReloadRechambers = true

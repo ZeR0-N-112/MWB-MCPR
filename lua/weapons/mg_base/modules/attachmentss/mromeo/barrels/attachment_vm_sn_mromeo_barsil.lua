@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_barrel"
 ATTACHMENT.Name = "19\" Silentfire Barrel"
 ATTACHMENT.Model = Model("models/zeron/att_vm_p21_sn_mromeo_barsil.mdl")
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/alpha50/icon_attachment_sn_alpha50_barmid.vmt")
+ATTACHMENT.Icon = Material("kyo/attachments/mromeo/mg_mromeo_barsil.vmt")
 ATTACHMENT.ExcludedCategories = {"Muzzle Devices"}
 
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)

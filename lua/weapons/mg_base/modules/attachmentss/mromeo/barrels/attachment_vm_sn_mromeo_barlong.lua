@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_barrel"
 ATTACHMENT.Name = "22\" OMX-456"
 ATTACHMENT.Model = Model("models/zeron/att_vm_p21_sn_mromeo_barlong.mdl")
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/alpha50/icon_attachment_sn_alpha50_barlong.vmt")
+ATTACHMENT.Icon = Material("kyo/attachments/mromeo/mg_mromeo_barlong.vmt")
 
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 
