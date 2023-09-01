@@ -22,8 +22,8 @@ ATTACHMENT.Optic = {
     Thermal = false
 }
 ATTACHMENT.Reticle = {
-    Material = Material("zeron/reticles/reticle_sz_heatsource.vmt"),
-    Size = 2500,
+    Material = Material("viper/mw/reticles/reticle_vzscope_default"),
+    Size = 1200,
     Color = Color(255, 255, 255, 255),
     Attachment = "reticle",
 	Offset = Vector(-0.1, 0.2, 0)
