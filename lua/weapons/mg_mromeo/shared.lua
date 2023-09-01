@@ -27,7 +27,7 @@ SWEP.VModel = Model("models/zeron/vm_sn_mromeo.mdl")
 SWEP.WorldModel = Model("models/viper/mw/weapons/w_alpha50.mdl") 
 SWEP.Trigger = {
     PressedSound = Sound("weap_delta_fire_first"),
-    ReleasedSound = Sound("weap_delta_fire_disconnector"),
+    ReleasedSound = Sound("p21_sn_mromeo_fire_disconnector"),
     Time = 0.03
 }
 
@@ -35,7 +35,7 @@ SWEP.Slot = 3
 SWEP.HoldType = "BoltAction"
 SWEP.FreezeInspectDelta = 0.3
 
-SWEP.Primary.Sound = Sound("weap_alpha50_fire_plr")
+SWEP.Primary.Sound = Sound("weap_mromeo_fire_plr")
 SWEP.Primary.Ammo = "357"
 SWEP.Primary.ClipSize = 10
 SWEP.Primary.Automatic = false
@@ -66,13 +66,13 @@ SWEP.Reverb = {
 
     Sounds = {
         Outside = {
-            Layer = Sound("Atmo_Sniper.Outside"),
-            Reflection = Sound("Reflection_Sniper.Outside")
+            Layer = Sound("p21_sn_mromeo_fire_atmo_out"),
+            Reflection = Sound("p21_sn_mromeo_fire_ref_out")
         },
 
         Inside = { 
-            Layer = Sound("Atmo_Shotgun.Inside"),
-            Reflection = Sound("Reflection_Shotgun.Inside")
+            Layer = Sound("p21_sn_mromeo_fire_atmo_in"),
+            Reflection = Sound("p21_sn_mromeo_fire_ref_in")
         }
     }
 }

@@ -793,7 +793,7 @@ $sequence "holster" {
 	"anims\vm_p21_sn_mromeo_drop.smd"
 	{ event 9011 0 "0" }
 	{ event 9021 0 "0" }
-	{ event 5004 2 "wfoly_plr_sn_alpha50_drop_01" }
+	{ event 5004 2 "p21_sn_mromeo_drop_01" }
 	{ event 9011 3 "1" }
 	{ event 5004 21 "Viewmodel.Small" }
 	{ event 9021 24 "1" }
@@ -814,7 +814,7 @@ $sequence "holster" {
 
 $sequence "draw" {
 	"anims\vm_p21_sn_mromeo_raise.smd"
-	{ event 5004 1 "wfoly_plr_sn_alpha50_raise_01" }
+	{ event 5004 1 "p21_sn_mromeo_raise_01" }
 	{ event 5004 24 "Viewmodel.Medium" }
 	fadein 0.2
 	fadeout 0.2
@@ -833,8 +833,8 @@ $sequence "draw" {
 
 $sequence "draw_first" {
 	"anims\vm_p21_sn_mromeo_raise_first.smd"
-	{ event 5004 6 "wfoly_plr_sn_alpha50_raise_first_01" }
-	{ event 5004 17 "wfoly_plr_sn_alpha50_raise_first_02" }
+	{ event 5004 6 "p21_sn_mromeo_raise_01" }
+	{ event 5004 17 "p21_sn_mromeo_reload_empty_smags_boltclose" }
 	{ event 5004 20 "Viewmodel.Medium" }
 	{ event 5004 26 "Viewmodel.Small" }
 	{ event 5004 41 "Viewmodel.Small" }
