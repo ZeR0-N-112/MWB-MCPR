@@ -1,0 +1,44 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "zeron\atts\laruecnote_rgb"
+    "$bumpmap" "zeron\atts\laruecnote_n"
+    "$phongexponenttexture" "zeron\atts\laruecnote_e"
+
+    /////////////////
+    "$color2" "[1.1 1.1 1.1]"                                     //do not touch this
+    "$blendtintbybasealpha" "0"                             //do not touch this
+    /////////////////
+
+    "$phong" "1"
+    "$phongboost" "0.4"
+    "$phongalbedotint" "1"
+    "$phongalbedoboost" "25"                                //toy around with this
+    "$phongfresnelranges" "[1 0.5 0]"
+    "$phongexponent" "12"
+    "$nocull" "1"
+
+    //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
+    "$rimlight" "1"
+    "$rimlightexponent" "100"
+    "$rimmask" "1"
+    "$rimlightboost" "0.3"
+       
+    /////////////////
+    "$normalmapalphaenvmapmask" "1"                         //do not touch this
+    /////////////////
+
+    "$envmap" "zeron\atts\specularity_25"
+    "$envmaptint" "[0.098 0.098 0.098]"                 
+
+    //remove this if not using MWB
+    "Proxies"
+    {
+        "MwEnvMapTint"
+        {
+            "min" "0"
+            "max" "0.5"
+            "envmap" "zeron\atts\specularity_25"
+            "color" "[0.098 0.098 0.098]"
+        }
+    }
+}

@@ -1,23 +1,17 @@
 sound.Add({
 	name = "weap_mromeo_fire_plr",
 	channel = CHAN_WEAPON,
-	level = 140,
+	level = 90,
 	volume = 1,
-	pitch = {100,100},
+	pitch = {100,110},
 	sound = {
-		"zeron/mromeo/weap_mromeo_fire_plr_shot_01.wav",
-		"zeron/mromeo/weap_mromeo_fire_plr_shot_02.wav",
-		"zeron/mromeo/weap_mromeo_fire_plr_shot_03.wav",
-		"zeron/mromeo/weap_mromeo_fire_plr_shot_04.wav",
-		"zeron/mromeo/weap_mromeo_fire_plr_shot_05.wav",
-		"zeron/mromeo/weap_mromeo_fire_plr_shot_06.wav",
-		"zeron/mromeo/weap_mromeo_fire_plr_shot_07.wav",
+		"zeron/mromeo/weap_mromeo_fire_plr_shot_01v2.wav",
 		}
 })
 sound.Add({
 	name = "weap_mromeo_fire_plr_sup",
 	channel = CHAN_WEAPON,
-	level = 140,
+	level = 112,
 	volume = 1,
 	pitch = {100,100},
 	sound = {
@@ -34,25 +28,18 @@ sound.Add({
 sound.Add({
 	name = "p21_sn_mromeo_fire_atmo_out",
 	channel = CHAN_ATMO,
-
+	level = 90,
 	volume = 1,
-	pitch = {100,100},
+	pitch = {100,110},
 	sound = {
-		"zeron/mromeo/weap_sniper6_fire_plr_atmo_ext1_01.wav",
-		"zeron/mromeo/weap_sniper6_fire_plr_atmo_ext1_02.wav",
-		"zeron/mromeo/weap_sniper6_fire_plr_atmo_ext1_03.wav",
-		"zeron/mromeo/weap_sniper6_fire_plr_atmo_ext1_04.wav",
-		"zeron/mromeo/weap_sniper6_fire_plr_atmo_ext1_05.wav",
-		"zeron/mromeo/weap_sniper6_fire_plr_atmo_ext1_06.wav",
-		"zeron/mromeo/weap_sniper6_fire_plr_atmo_ext1_07.wav",
-		"zeron/mromeo/weap_sniper6_fire_plr_atmo_ext1_08.wav",
+		"zeron/mromeo/weap_sniper6_fire_plr_atmo_ext1_01v2.wav",
 		}
 })
 sound.Add({
 	name = "p21_sn_mromeo_fire_atmo_in",
 	channel = CHAN_ATMO,
 
-	volume = 1,
+	volume = 90,
 	pitch = {100,100},
 	sound = {
 		"zeron/mromeo/weap_sniper_fire_plr_atmo_int1_01.wav",
