@@ -10,8 +10,8 @@ include("animations.lua")
 include("customization.lua") 
 
 if CLIENT then
-    killicon.Add( "mg_mromeo", "kyo/attachments/mromeo/mg_mromeo", Color(255, 0, 0, 255))
-    SWEP.WepSelectIcon = surface.GetTextureID("VGUI/spawnicons/mg_mromeo_killicon")
+    killicon.Add( "mg_mromeo", "VGUI/entities/mg_mromeo", Color(255, 0, 0, 255))
+    SWEP.WepSelectIcon = surface.GetTextureID("VGUI/entities/mg_mromeo_killicon")
 end
 
 SWEP.GripPoseParameters = {"grip_ang_offset", "grip_vert_offset"}
