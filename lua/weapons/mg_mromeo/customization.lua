@@ -7,12 +7,12 @@ function SWEP:doSuppressorStats()
         Sounds = {
             Outside = {
                 Layer = Sound("p21_sn_mromeo_fire_sup_atmo_out"),
-                Reflection = Sound("p21_sn_mromeo_fire_sup_ref_out")
+                Reflection = Sound("Reflection_Sniper.Outside")
             },
     
             Inside = { 
                 Layer = Sound("p21_sn_mromeo_fire_sup_atmo_in"),
-                Reflection = Sound("p21_sn_mromeo_fire_sup_ref_in")
+                Reflection = Sound("Reflection_ARSUP.Inside")
             }
         }
     }

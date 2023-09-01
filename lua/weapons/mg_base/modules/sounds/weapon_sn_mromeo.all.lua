@@ -157,7 +157,7 @@ sound.Add({
 	name = "p21_sn_mromeo_fire_disconnector",
 	channel = CHAN_TRIGGER,
 
-	volume = 1,
+	volume = 0.3,
 	pitch = {100,100},
 	sound = {
 		"zeron/mromeo/weap_mromeo_fire_plr_fcg_01.wav",
@@ -491,7 +491,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p21_sn_mromeo_reload_empty_smags_rattle",
-	channel = CHAN_WPNFOLEY + 7,
+	channel = CHAN_WPNFOLEY + 14,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -501,7 +501,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p21_sn_mromeo_reload_empty_smags_magin",
-	channel = CHAN_WPNFOLEY + 7,
+	channel = CHAN_WPNFOLEY + 25,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -511,7 +511,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p21_sn_mromeo_reload_empty_smags_end",
-	channel = CHAN_WPNFOLEY + 7,
+	channel = CHAN_WPNFOLEY + 17,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -554,7 +554,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p21_sn_mromeo_reload_empty_xmags_maggrab",
-	channel = CHAN_WPNFOLEY + 10,
+	channel = CHAN_WPNFOLEY + 11,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -564,7 +564,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p21_sn_mromeo_reload_empty_xmags_magin",
-	channel = CHAN_WPNFOLEY + 10,
+	channel = CHAN_WPNFOLEY + 19,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -574,7 +574,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p21_sn_mromeo_reload_empty_xmags_end",
-	channel = CHAN_WPNFOLEY + 10,
+	channel = CHAN_WPNFOLEY + 13,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -584,7 +584,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p21_sn_mromeo_reload_empty_xmags_magout",
-	channel = CHAN_WPNFOLEY + 10,
+	channel = CHAN_WPNFOLEY + 14,
 	
 	volume = 1,
 	pitch = {100,100},

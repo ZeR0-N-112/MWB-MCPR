@@ -67,12 +67,12 @@ SWEP.Reverb = {
     Sounds = {
         Outside = {
             Layer = Sound("p21_sn_mromeo_fire_atmo_out"),
-            Reflection = Sound("p21_sn_mromeo_fire_ref_out")
+            Reflection = Sound("Reflection_Sniper.Outside")
         },
 
         Inside = { 
             Layer = Sound("p21_sn_mromeo_fire_atmo_in"),
-            Reflection = Sound("p21_sn_mromeo_fire_ref_in")
+            Reflection = Sound("Reflection_Shotgun.Inside")
         }
     }
 }
@@ -150,8 +150,8 @@ SWEP.WorldModelOffsets = {
 
 SWEP.ViewModelOffsets = {
     Sprint = {
-        Angles = Angle(-3, 13, -2),
-        Pos = Vector(4, -3, 6)
+        Angles = Angle(0, 0, 0),
+        Pos = Vector(0, -5, 6)
     },
     Aim = {
         Angles = Angle(-0.01, 0.076, 3.7),

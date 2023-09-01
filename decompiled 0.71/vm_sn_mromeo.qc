@@ -1324,8 +1324,8 @@ $sequence "reload_empty_smag_fast" {
 	"anims\vm_p21_sn_mromeo_ads_reload_empty_fast_smags.smd"
 	blend "aim_offset" 0 1
 	blendwidth 2
-    { event 6001 77 "shell_eject" }
-	{ event 9001 77 "Ejection shell_eject" }
+    { event 6001 55 "shell_eject" }
+	{ event 9001 55 "Ejection shell_eject" }
 	{ event 5004 2 "p21_sn_mromeo_reload_01" }
 	{ event 5004 15 "Viewmodel.Small" }
 	{ event 5004 20 "Viewmodel.Small" }
