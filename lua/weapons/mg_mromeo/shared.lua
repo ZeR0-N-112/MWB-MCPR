@@ -47,7 +47,7 @@ SWEP.CanDisableAimReload = false
 SWEP.ReloadRechambers = true
 SWEP.Projectile = {
     Class = "mg_sniper_bullet", --bullet entity class
-    Speed = 30000, 
+    Speed = 43000, 
     Gravity = 8,
     Penetrate = true
 }
