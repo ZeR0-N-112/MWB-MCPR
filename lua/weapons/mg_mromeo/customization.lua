@@ -39,7 +39,7 @@ SWEP.Customization = {
    "wp_r4t",       "wp_rg3",       "wp_cw_snappoint",       "wp_x8_mr45",
    "wp_r8t",       "wp_x3",       "wp_fc1",
    "wp_sf2",       "wp_x5",       "wp_lco",
-   "wp_uh1",       "wp_x8",       "wp_mro_8", "wp_acog_rm45"},
+   "wp_uh1",       "wp_x8",       "wp_mro_8", "wp_acog_rm45", "att_vm_larue_cnote_wide"},
 	
 	{"attachment_vm_sn_mromeo_barrel", "attachment_vm_sn_mromeo_barsil", 
     "attachment_vm_sn_mromeo_barlong", "attachment_vm_sn_mromeo_barshort"},
