@@ -7,7 +7,7 @@
     "$phongexponenttexture" "zeron\weapons\sn_mromeo\wpn_p21_sn_mromeo_grass_v4_e"
     "$alphatest" "1"
 
-    //"$color2" "[0 0 0]"
+    "$color2" "[2 2 2]"
     "$blendtintbybasealpha" "0"
     "$nocull" "1"
 

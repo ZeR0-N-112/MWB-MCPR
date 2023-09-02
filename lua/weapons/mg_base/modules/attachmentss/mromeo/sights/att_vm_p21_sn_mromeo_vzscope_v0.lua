@@ -23,7 +23,7 @@ ATTACHMENT.Optic = {
 }
 ATTACHMENT.Reticle = {
     Material = Material("viper/mw/reticles/reticle_sniper_new.vmt"),
-    Size = 2000,
+    Size = 2400,
     Color = Color(255, 255, 255, 255),
     Attachment = "reticle",
 	Offset = Vector(-0.05, 0.05	, 0)
@@ -33,7 +33,7 @@ local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 
 function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)
-	weapon.ViewModelOffsets.Aim.Pos = weapon.ViewModelOffsets.Aim.Pos + Vector(0, 0, -0.06)
+	weapon.ViewModelOffsets.Aim.Pos = weapon.ViewModelOffsets.Aim.Pos + Vector(0, -2, -0.06)
 	weapon.ViewModelOffsets.Aim.Angles = weapon.ViewModelOffsets.Aim.Angles + Angle(0, 0, 0)
     weapon.Zoom.ViewModelFovMultiplier = weapon.Zoom.ViewModelFovMultiplier * 0.95
 	weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 0.85
