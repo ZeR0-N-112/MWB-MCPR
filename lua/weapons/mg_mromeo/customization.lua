@@ -59,6 +59,8 @@ SWEP.Customization = {
 	{"attachment_vm_sn_mromeo_grip", "attachment_vm_sn_mromeo_gripl", "attachment_vm_sn_mromeo_griptac", "attachment_vm_sn_mromeo_griph"},
 	
 	{"att_skin_mcpr", "att_skin_mcpr_v4"},
+	
+	{"att_bpod_none", "att_vm_bipod03"},
 }
 
 --NECESSARY: it loads custom attachments from other authors
