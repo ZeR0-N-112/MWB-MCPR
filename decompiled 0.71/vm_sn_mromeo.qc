@@ -4,13 +4,16 @@ $modelname "vm_sn_mromeo.mdl"
 
 $bodygroup "reference"
 {
+	blank
 	studio "mcpr23reconly.smd"
 }
 $bodygroup "tag_sight"
 {
+	blank
+	blank
+	blank
 	studio "mcpr2_iron.smd"
 	studio "mcpr2_iron_down.smd"
-	blank
 }
 
 

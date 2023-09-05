@@ -1,0 +1,42 @@
+//if you don't know what a parameter does, visit:
+//https://developer.valvesoftware.com/wiki/$phong
+"VertexLitGeneric"
+{
+    "$basetexture" "zeron\weapons\sn_mromeo\basewhite"
+    "$bumpmap" "zeron\weapons\sn_mromeo\wpn_p21_sn_mromeo_mag_300nm_v0_n"
+    "$phongexponenttexture" "zeron\weapons\sn_mromeo\wpn_p21_sn_mromeo_mag_300nm_v0_e"
+
+    "$color2" "[0.25 0.2 0.1]"
+    "$blendtintbybasealpha" "1"
+
+    "$phong" "1"
+    "$phongboost" "15"
+    "$phongtint" "[1.225 0.8325 0.325]"
+    "$phongexponent" "110"
+    "$phongalbedoboost" "1" //change this if not bright enough
+    "$phongfresnelranges" "[1 0.5 0]"
+
+    //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
+    "$rimlight" "1"
+    "$rimlightexponent" "100"
+    "$rimmask" "1"
+    "$rimlightboost" "1"
+
+    "$normalmapalphaenvmapmask" "1"
+    "$envmapfresnel" "2"
+    "$envmap" "env_cubemap"
+    "$envmaptint" "[2.425 1.6325 0.3425]"
+
+    //remove this if viewing outside of MWB
+    "Proxies"
+    {
+        "MwEnvMapTint"
+        {
+            "color"    "[1.225 0.8325 0.1725]"
+            "envmap"    "viper/shared/envmaps/metal_generic_002.hdr"
+            "specularity" "1"             //0.25, 0.5, 0.75, 1
+            "min" "0"
+            "max" "4"                       //change this if too bright in game
+        }
+    }
+}
